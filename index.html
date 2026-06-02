@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moramsa/Home</title>
+    <link rel="preload" href="assets/fonts/montserrat/montserrat-regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/cta.css">
+    <link rel="stylesheet" href="./css/liyexp.css">
+    <script src="./js/main.js" type="module"></script>
+    <script src="./js/udNegocios.js" defer></script>
+    <script src="./js/expoLogos.js" defer></script>
+
+
+</head>
+<body>
+    <div
+        id="logoMedia-container"
+        data-component="logoMedia-social"
+        data-module="./js/logoMedia.js"
+        data-init="iniciarLogoMedia">
+    </div>
+
+    <div id="topbar-container"  data-component="top-bar"></div>
+    <div id="navbar-container"  data-component="nav-bar"></div>
+    <div
+        id="header-container"
+        data-component="headerMain"
+        data-init="iniciarCarrusel">
+    </div>
+
+    <div id="servicios-container" data-component="servicios-seccion"></div>
+
+    <section class="colaboradores-section">
+        <div class="colaboradores-container">
+
+            <div class="colaboradores-video">
+            <video
+                src="./assets/media/IMG_8231.mp4"
+                title="Colaboradores"
+                controls
+                playsinline
+                preload="metadata"
+            >
+                Tu navegador no soporta la reproducción de video.
+            </video>
+            </div>
+
+            <div class="colaboradores-texto">
+            <h2 class="colaboradores-titulo">
+            <span class="colab-title-plain">¿QUIENES</span>
+            <span class="colab-title-badge">SOMOS?</span>
+            </h2>
+
+            <p class="colaboradores-parrafo">
+                <strong>MORAMSA S.A.S</strong> es una compañía dedicada a la venta, alquiler, administración y gestión de capital, 
+                bienes e Inmuebles, nacimos con la finalidad de atender las exigencias del mercado brindando servicios 
+                personalizados que mejoran las experiencias de nuestros clientes.
+            </p>
+                <a href="aboutus.html" class="colaboradores-btn">
+                Conoce más
+                </a>            
+            </div>
+        </div>
+    </section>
+
+    <section class="accesos-section">
+        <div class="accesos-container">
+
+            <div class="accesos-texto">
+            <h2 class="accesos-titulo">
+                <span class="acc-title-plain">UNIDADES DE</span>
+                <span class="acc-title-badge"><span>NEGOCIO</span></span>
+            </h2>
+
+            <p class="accesos-descripcion">
+                Consigna un inmueble para arrendamiento o venta y resuelve tus dudas.
+            </p>
+            </div>
+
+            <div class="accesos-slider" aria-label="Carrusel de unidades de negocio">
+            <button class="accesos-btn left" aria-label="Anterior">←</button>
+
+            <div class="accesos-viewport">
+                <div class="accesos-track">
+                <div class="acceso-card">
+                    <div class="acceso-icono circulo-azul">
+                    <img src="./assets/icons/INVERSIONES DE CAPITAL-04.svg" alt="icono factura" />
+                    </div>
+                    <h3>Inversiones de Capital</h3>
+                    <ul>
+                    <li>Participación en vehículos de inversión</li>
+                    <li>Capital privado y portafolios patrimoniales</li>
+                    </ul>
+                </div>
+
+                <div class="acceso-card">
+                    <div class="acceso-icono circulo-verde">
+                    <img src="./assets/icons/gestion y renta inmobiliaria-06.svg" alt="icono usados" />
+                    </div>
+                    <h3>Gestión y Renta Inmobiliaria</h3>
+                    <ul>
+                    <li>Renta de bienes raíces residenciales</li>
+                    <li>Comerciales e industriales</li>
+                    <li>Administración patrimonial</li>
+                    </ul>
+                </div>
+
+                <div class="acceso-card">
+                    <div class="acceso-icono circulo-verdeagua">
+                    <img src="./assets/icons/desarrollo y promocion de proyectos-05.svg" alt="icono obra" />
+                    </div>
+                    <h3>Desarrollo y Promoción de Proyectos</h3>
+                    <ul>
+                    <li>Estructuración y promoción de proyectos inmobiliarios y logísticos</li>
+                    <li>Alianzas para co-inversión y desarrollos propios</li>
+                    </ul>
+                </div>
+
+                <div class="acceso-card">
+                    <div class="acceso-icono circulo-verdeagua">
+                    <img src="./assets/icons/asesoria-07.svg" alt="icono obra" />
+                    </div>
+                    <h3>Asesoría Estratégica</h3>
+                    <ul>
+                    <li>Consultoría financiera y estructuración de negocios</li>
+                    <li>Planeación patrimonial e inversiones familiares</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+
+            <button class="accesos-btn right" aria-label="Siguiente">→</button>
+            </div>
+        </div>
+    </section>
+
+    <section 
+    class="experiencia-section"
+        data-module="./js/experiencia.js"
+        data-init="iniciarExperiencia"
+    >
+        <div class="contenedor-experiencia">
+            
+            <div class="experiencia-texto">
+                <h2 class="exp-title">
+                    <span class="exp-title-plain">LIDERAZGO Y<br>EXPERIENCIAS</span>
+                    <span class="exp-title-badge"><span>DE LOS SOCIOS</span></span>
+                </h2>
+            </div>
+
+            <div class="experiencia-slider">
+            <div class="experiencia-viewport">
+                <div class="experiencia-cards">
+                
+                <div class="experiencia-card">
+                    <div class="icono-circular">
+                    <img src="./assets/icons/mas de 12 años de experiencia.svg" alt="experiencia">
+                    </div>
+                    <h3>Más de 12 años de experiencia en estructuración de proyectos logísticos e inmobiliarios.</h3>
+                    <p></p>
+                </div>
+
+                <div class="experiencia-card">
+                    <div class="icono-circular">
+                    <img src="./assets/icons/promocion de negocios y gestio patrimonial.svg" alt="">
+                    </div>
+                    <h3>Promoción de negocios y gestión patrimonial.</h3>
+                    <p></p>
+                </div>
+
+                <div class="experiencia-card">
+                    <div class="icono-circular">
+                    <img src="./assets/icons/asesoria financiera y desarrollo.svg" alt="">
+                    </div>
+                    <h3>Asesoría financiera y desarrollo estratégico.</h3>
+                    <p></p>
+                </div>
+
+                <div class="experiencia-card">
+                    <div class="icono-circular">
+                    <img src="./assets/icons/Compromiso con la gestión responsable.svg" alt="">
+                    </div>
+                    <h3>Compromiso con la gestión responsable y crecimiento patrimonial familiar</h3>
+                    <p></p>
+                </div>
+
+                </div>
+            </div>
+
+            <div class="navegacion-flechas">
+                <button class="btn-flecha izquierda" aria-label="Anterior">←</button>
+                <button class="btn-flecha derecha" aria-label="Siguiente">→</button>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="aliados-section" data-module="./js/aliados.js">
+        <svg class="aliados-arrow"
+            viewBox="0 0 617 250"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+            aria-label="Flecha diagonal">
+            <defs>
+            <marker id="arrow" viewBox="0 0 40 40" refX="6" refY="5"
+                    markerWidth="10" markerHeight="10"
+                    orient="auto" markerUnits="strokeWidth">
+                <path d="M0,0 L10,5 L0,10 Z" fill="#272727"/>
+            </marker>
+            </defs>
+
+            <polyline
+            points="0,242 278,122 305,154 600,20"
+            fill="none"
+            stroke="#272727"
+            stroke-width="25"
+            stroke-linecap="butt"
+            stroke-linejoin="miter"
+            marker-end="url(#arrow)"
+            />
+        </svg>
+
+        <div class="aliados-wrap">
+            <h2 class="aliados-title">
+            <span class="aliados-plain">ALIADOS</span>
+            <span class="aliados-badge"><span>ESTRATÉGICOS</span></span>
+            </h2>
+
+            <div class="aliados-grid">
+            <div class="aliado-card">
+                <div class="aliado-icon">
+                <img src="./assets/icons/Logo trazar futuro SAS.JPG.jpeg" alt="Financieros">
+                </div>
+                <h3>Financieros</h3>
+                <p></p>
+            </div>
+
+
+            <div class="aliado-card aliado-card-doble">
+                <div class="aliado-icon aliado-icon-izquierda">
+                <img src="./assets/icons/Mesa de trabajo 1-100.jpg.jpeg" alt="Arquitectura e ingeniería">
+                </div>
+                <div class="aliado-icon aliado-icon-derecha">
+                <img src="./assets/icons/NUEVO LOGO (2).png" alt="Constructoras y desarrolladores">
+                </div>
+                <h3>Arquitectura e ingeniería para diseño y ejecución</h3>
+                <p></p>
+            </div>
+
+
+            <div class="aliado-card">
+                <div class="aliado-icon">
+                <img src="./assets/icons/WhatsApp Image 2026-03-26 at 10.59.46 AM.jpeg" alt="Firmas jurídicas y tributarias">
+                </div>
+                <h3>Firmas jurídicas y tributarias especializadas</h3>
+                <p></p>
+            </div>
+
+
+            <div class="aliado-card">
+                <div class="aliado-icon">
+                <img src="./assets/icons/logo electromecanica_Mesa de trabajo 1.png" alt="Brokers inmobiliarios">
+                </div>
+                <h3>Servicios</h3>
+                <p></p>
+            </div>
+
+
+
+            <div class="aliado-card">
+                <div class="aliado-icon">
+                <img src="./assets/icons/Desin logo full[3665].png" alt="Brokers inmobiliarios">
+                </div>
+                <h3>Constructora</h3>
+                <p></p>
+            </div>
+            </div>
+        </div>
+        </section>
+
+
+
+    <section class="exp-logos-section" aria-labelledby="exp-logos-title">
+        <div class="exp-logos-container">
+
+            <div class="exp-badge">
+            <h2 id="exp-logos-title" class="exp-badge__text">Nuestra experiencia</h2>
+            </div>
+
+            <div class="exp-logos-slider" aria-label="Carrusel de logos aliados">
+            <button class="exp-btn left" aria-label="Anterior">‹</button>
+
+            <div class="exp-logos-viewport">
+                <ul class="exp-logos-track" role="list">
+                    <li class="exp-logo-card">
+                        <img src="./assets/icons/centraCarLogo.jpeg" alt="Aliado 1" loading="lazy" decoding="async">
+                    </li>
+                    <li class="exp-logo-card">
+                        <img src="./assets/icons/CentracarColfecaLogo.svg.png" alt="Aliado 2" loading="lazy" decoding="async">
+                    </li>
+                </ul>
+            </div>
+
+            <button class="exp-btn right" aria-label="Siguiente">›</button>
+            </div>
+
+        </div>
+    </section>
+
+
+    <div
+        id="llamado-accion"
+        data-component="llamado-accion"
+        data-module="./js/cta.js"
+        data-init="iniciarCTA">
+    </div>
+    <div id="contacto-horarios-container"  data-component="contacto-horarios"></div>
+    <div id="footer-container"             data-component="footer"></div>
+
+</body>
+</html>

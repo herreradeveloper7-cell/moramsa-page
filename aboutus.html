@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sobre Nosotros / Moramsa</title>
+
+  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="./css/cta.css" />
+  <link rel="stylesheet" href="./css/about/about.css" />
+  <link rel="stylesheet" href="./css/header-alter.css" />
+
+  <script src="./js/main.js" type="module"></script>
+  <script src="./js/effects/misionVision.js" defer></script>
+</head>
+<body>
+  <div
+    id="logoMedia-container"
+    data-component="logoMedia-social"
+    data-module="./js/logoMedia.js"
+    data-init="iniciarLogoMedia">
+  </div>
+
+  <div id="topbar-container" data-component="top-bar"></div>
+  <div id="navbar-container" data-component="nav-bar"></div>
+
+  <header
+    class="hero hero--about"
+    aria-label="Equipo MORAMSA en oficina">
+    <div class="hero__content reveal">
+      <h1 class="hero__kicker">Construimos sueños</h1>
+      <div class="hero__bubble"><span>Sobre nosotros</span></div>
+      <p class="hero__sub">Brindamos soluciones integrales.</p>
+    </div>
+  </header>
+
+  <section id="quienes-somos" class="about-section">
+    <div class="container about__grid">
+      <div class="about__text reveal">
+        <h2 class="about__title">¿Quiénes somos?</h2>
+        <p><strong>CAPITAL Y BIENES RAICES S.A.S</strong> es una compañía dedicada a la venta, alquiler, administración y gestión de capital, bienes e inmuebles. Nacimos con la finalidad de atender las exigencias del mercado logístico brindando servicios personalizados que mejoran las experiencias de nuestros clientes.</p>
+        <p>Nuestro enfoque nos impulsa a ofrecer soluciones eficientes que generan experiencia, seguridad y confianza, comprometiéndonos a fortalecer el patrimonio de nuestros clientes.</p>
+        <p>Garantizamos servicios de calidad con la experiencia de una empresa sólida, contando con un equipo de trabajo profesional y dedicado logrando llevar a cabo un servicio exitoso. Moramsa brinda una línea estratégica orientada a la gestión inmobiliaria y logística especializada, con enfoque en la integración de operaciones entre Colombia y Europa, conectando empresas con infraestructura y servicios logísticos estratégicos.</p>
+      </div>
+
+      <div class="about__media">
+        <figure class="about__tile about__tile--tl">
+          <img src="./assets/images/Nosotros1.jpg.jpeg" alt="Personal de MORAMSA atendiendo a un cliente" loading="lazy" />
+        </figure>
+
+        <figure class="about__tile about__tile--tr about__tile--shift">
+          <img src="./assets/images/Nosotros2.jpg.jpeg" alt="Propiedades administradas por MORAMSA" loading="lazy" />
+        </figure>
+
+        <figure class="about__tile about__tile--br">
+          <img src="./assets/images/Nosotros4.jpg" alt="Equipo de trabajo de MORAMSA" loading="lazy" />
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="mv">
+    <div class="mv__grid">
+      <div class="mv__panel mv__panel--mission">
+        <h3 class="mv__title mv__title--mission">Misión</h3>
+        <p class="mv__text mv__text--mission">
+          Generar valor y rentabilidad sostenible a través de la inversión, gestión y desarrollo 
+          de activos inmobiliarios, capital privado y renta estratégica de bienes raíces, con 
+          enfoque nacional e internacional.
+          Brindar soluciones integrales, orientadas a la estructuración, administración y 
+          promoción de activos, contribuyendo al desarrollo eficiente de operaciones logísticas 
+          y empresariales.
+        </p>
+      </div>
+
+      <div class="mv__panel mv__panel--vision">
+        <h3 class="mv__title mv__title--vision">Visión</h3>
+        <p class="mv__text mv__text--vision">
+          Ser un referente familiar en el sector inmobiliario y de inversiones de capital, 
+          líder en el desarrollo de gestión de proyectos logísticos en Colombia, con presencia 
+          y articulación en mercados internacionales, reconocidos por nuestra solidez, visión 
+          estratégica, discreción y capacidad para estructurar y gestionar activos que generen 
+          valor duradero.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="valores-corporativos" class="vc-section" aria-labelledby="vc-title">
+    <div class="vc-container">
+      <header class="vc-header">
+        <h2 id="vc-title" class="vc-title">
+          <span class="vc-plain">VALORES</span>
+          <span class="vc-badge"><span>CORPORATIVOS</span></span>
+        </h2>      
+      </header>
+      <div id="servicios-container" data-component="servicios-seccion"></div>
+    </div>
+  </section>
+
+  <div
+    id="llamado-accion"
+    data-component="llamado-accion"
+    data-module="./js/cta.js"
+    data-init="iniciarCTA">
+  </div>
+
+  <div id="contacto-horarios-container" data-component="contacto-horarios"></div>
+  <div id="footer-container"            data-component="footer"></div>
+</body>
+</html>

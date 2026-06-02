@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestra Experiencia / Moramsa</title>
+    <link rel="stylesheet" href="./css/experiencia/experiencia.css">
+    <link rel="stylesheet" href="./css/liyexp.css">
+    <link rel="stylesheet" href="./css/cta.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+    <script src="./js/main.js" type="module"></script>
+
+</head>
+<body>
+    <div 
+        id="logoMedia-container"
+        data-component="logoMedia-social"
+        data-module="./js/logoMedia.js"
+        data-init="iniciarLogoMedia"
+    ></div>
+
+    <div id="topbar-container"  data-component="top-bar"></div>
+    <div id="navbar-container"  data-component="nav-bar"></div>
+
+    <header
+        class="exp-hero exp-hero--about"
+        aria-label="Equipo MORAMSA en oficina">
+        <div class="exp-hero__content reveal">
+            <h1 class="exp-hero__kicker">Construimos sueños</h1>
+            <div class="exp-hero__bubble"><span>Nuestra Experiencia</span></div>
+            <p class="exp-hero__sub">Brindamos soluciones integrales.</p>
+        </div>
+    </header>
+
+    <section
+        class="exp-intro"
+        data-module="./js/effects/typingBanner.js"
+        data-text="En MORAMSA S.A.S contamos con una sólida trayectoria en la venta, alquiler, administración y gestión de bienes e inmuebles. 
+        Nuestra experiencia nos ha permitido consolidar un modelo de servicio que prioriza la seguridad, confianza y eficiencia, garantizando 
+        soluciones personalizadas que fortalecen el patrimonio de nuestros clientes."
+    >
+    </section>
+
+    <div id="liyexp-container" data-component="liyexp"></div>
+
+    
+    <div
+        id="llamado-accion"
+        data-component="llamado-accion"
+        data-module="./js/cta.js"
+        data-init="iniciarCTA">
+    </div>
+    <div id="contacto-horarios-container" data-component="contacto-horarios"></div>
+    <div id="footer-container"            data-component="footer"></div>
+
+
+</body>
+</html>

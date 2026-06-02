@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <filter id="Elipse_7" x="0" y="0" width="100" height="100" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_7350" data-name="Grupo 7350" transform="translate(-327 -2355)">
+    <g transform="matrix(1, 0, 0, 1, 327, 2355)" filter="url(#Elipse_7)">
+      <circle id="Elipse_7-2" data-name="Elipse 7" cx="41" cy="41" r="41" transform="translate(9 6)" fill="#00706a"/>
+    </g>
+    <path id="estrella" d="M11.138,48.18a2.649,2.649,0,0,1-2.577-3.235l3.2-14.1L.905,21.322a2.647,2.647,0,0,1,1.5-4.628l14.365-1.3L22.449,2.1a2.645,2.645,0,0,1,4.864,0L32.993,15.39l14.363,1.3a2.648,2.648,0,0,1,1.5,4.628L38,30.842l3.2,14.1A2.644,2.644,0,0,1,37.268,47.8L24.881,40.4,12.494,47.8A2.651,2.651,0,0,1,11.138,48.18ZM24.881,37.21a2.651,2.651,0,0,1,1.356.375l11.69,6.992-3.021-13.31a2.645,2.645,0,0,1,.838-2.577L46,19.7,32.433,18.467a2.642,2.642,0,0,1-2.2-1.6L24.881,4.322l-5.36,12.545a2.634,2.634,0,0,1-2.191,1.6L3.765,19.695l10.251,8.99a2.639,2.639,0,0,1,.838,2.579l-3.019,13.31,11.69-6.99A2.65,2.65,0,0,1,24.881,37.21ZM16.66,15.647a.006.006,0,0,1,0,0ZM33.1,15.641l0,0S33.1,15.643,33.1,15.641Zm0,0" transform="translate(352.119 2377.664)" fill="#fff" stroke="#fff" stroke-width="1"/>
+  </g>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <filter id="Elipse_3" x="0" y="0" width="100" height="100" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_7337" data-name="Grupo 7337" transform="translate(-327 -1953)">
+    <g transform="matrix(1, 0, 0, 1, 327, 1953)" filter="url(#Elipse_3)">
+      <circle id="Elipse_3-2" data-name="Elipse 3" cx="41" cy="41" r="41" transform="translate(9 6)" fill="#00706a"/>
+    </g>
+    <path id="iconfinder_icon-heart_2867909" d="M22.985,5.178A11.284,11.284,0,0,1,38.934,21.127L22.891,37.188a1.881,1.881,0,0,1-2.671,0L4.178,21.127A11.284,11.284,0,0,1,20.127,5.178l1.429,1.411,1.429-1.411Zm13.3,13.3A7.527,7.527,0,0,0,25.637,7.83l-2.746,2.765a1.881,1.881,0,0,1-2.671,0L17.475,7.83A7.527,7.527,0,1,0,6.83,18.475L21.556,33.2Z" transform="translate(355.579 1981.846)" fill="#fff"/>
+  </g>
+</svg>

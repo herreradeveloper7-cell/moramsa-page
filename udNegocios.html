@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>U. de negocio / Moramsa</title>
+
+  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="./css/udNegocios/udNegocios.css" />
+  <link rel="stylesheet" href="./css/cta.css" />
+  <link rel="stylesheet" href="./css/header-alter2.css" />
+
+  <script src="./js/main.js" type="module"></script>
+  <script src="./js/effects/rkCarousel.js" defer></script>
+</head>
+<body>
+  <div
+    id="logoMedia-container"
+    data-component="logoMedia-social"
+    data-module="./js/logoMedia.js"
+    data-init="iniciarLogoMedia">
+  </div>
+
+  <div id="topbar-container" data-component="top-bar"></div>
+  <div id="navbar-container" data-component="nav-bar"></div>
+
+  <header
+    class="heroNegocios">
+    <div class="heroNegocios__content">
+      <h1 class="heroNegocios__kicker">Moramsa</h1>
+      <div class="heroNegocios__bubble"><span>Unidades de negocio</span></div>
+      <p class="heroNegocios__sub"></p>
+    </div>
+  </header>
+
+  <section id="reconocimientos" class="rk-section" aria-labelledby="rk-title">
+    <div class="rk-container">
+    <h2 id="rk-title" class="rk-title">
+      <span class="rk-title-plain">UNIDADES DE</span>
+      <span class="rk-title-badge"><span>NEGOCIO</span></span>
+    </h2>
+
+      <div class="rk-viewport">
+        <ul class="rk-track" id="rk-track" aria-label="Listado de reconocimientos">
+          <li class="rk-card">
+            <figure class="rk-media">
+              <img src="./assets/images/agente-inmobiliario-sonriente-usando-una-computadora-mientras-se-reune-con-una-pareja-joven-y-hace-planes-de-inversion.jpg" alt="Reconocimiento 2024"
+                   width="640" height="320" loading="lazy" decoding="async" />
+            </figure>
+            <div class="rk-body">
+              <h3 class="rk-year">Gestión y Renta Inmobiliaria</h3>
+              <ul class="rk-features">
+                <li>Renta de bienes raíces residenciales, comerciales e industriales</li>
+                <li>Administración patrimonial</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="rk-card">
+            <figure class="rk-media">
+              <img src="./assets/images/cerca-de-socios-comerciales-un-apreton-de-manos.jpg" alt="Reconocimiento 2023"
+                   width="640" height="320" loading="lazy" decoding="async" />
+            </figure>
+            <div class="rk-body">
+              <h3 class="rk-year">Desarrollo y Promoción de Proyectos</h3>
+              <ul class="rk-features">
+                <li>Estructuración y promoción de proyectos inmobiliarios y logísticos</li>
+                <li>Alianzas para co-inversión y desarrollos propios</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="rk-card">
+            <figure class="rk-media">
+              <img src="./assets/images/unidadesDeNegocio.jpg" alt="Reconocimiento 2019"
+                   width="640" height="320" loading="lazy" decoding="async" />
+            </figure>
+            <div class="rk-body">
+              <h3 class="rk-year">Inversiones de Capital</h3>
+              <ul class="rk-features">
+                <li>Participación en vehículos de inversión</li>
+                <li>Capital privado y portafolios patrimoniales</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="rk-card">
+            <figure class="rk-media">
+              <img src="./assets/images/hombre-de-negocios-trabajando-en-escritorio.jpg" alt="Reconocimiento 2019"
+                   width="640" height="320" loading="lazy" decoding="async" />
+            </figure>
+            <div class="rk-body">
+              <h3 class="rk-year">Asesoría Estratégica</h3>
+              <ul class="rk-features">
+                <li>Consultoría financiera y estructuración de negocios</li>
+                <li>Planeación patrimonial e inversiones familiares</li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="rk-nav" aria-controls="rk-track">
+        <button class="rk-btn rk-prev" aria-label="Anterior" disabled>
+          <img src="./assets/icons/flecha-izquierda.svg" alt="">
+        </button>
+        <button class="rk-btn rk-next" aria-label="Siguiente">
+          <img src="./assets/icons/flecha-derecha.svg" alt="">
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <div
+    id="llamado-accion"
+    data-component="llamado-accion"
+    data-module="./js/cta.js"
+    data-init="iniciarCTA">
+  </div>
+
+  <div id="contacto-horarios-container" data-component="contacto-horarios"></div>
+  <div id="footer-container"            data-component="footer"></div>
+</body>
+</html>
