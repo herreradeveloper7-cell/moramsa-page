@@ -84,7 +84,8 @@
 .heroNegocios__bubble{
   width: fit-content;        
   max-inline-size: 20ch;    
-  white-space: normal;      
+  white-space: normal;
+  padding-right: .55rem;      
 }
 
 .hero--about .hero__bubble::after{ right: 24px; }
