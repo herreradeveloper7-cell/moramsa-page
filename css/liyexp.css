@@ -122,7 +122,9 @@
   position: relative;
   padding-left: 1.25rem;     
   margin: .40rem 0;          
-  line-height: 1.45;        
+  line-height: 1.45;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .mb-points li::before{
